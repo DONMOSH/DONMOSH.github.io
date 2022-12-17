@@ -1,0 +1,109 @@
+.browser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    background-color: black;
+    width: 1350px;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    width: 100%;
+    column-gap: 50px;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+#logo {
+    flex: 1;
+    margin-left: 10px;
+}
+
+#nav {
+    margin-right: 7px;
+}
+
+.mission {
+    background-image: url(../img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .slogan {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+.tea .words {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.tea .first {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    column-gap: 50px;  
+    text-align: center;
+}
+
+.tea .first h4 {
+    margin-top: 10px;
+}
+
+.tea .second {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    column-gap: 50px;
+    text-align: center;    
+}
+
+.tea .second h4 {
+    margin-top: 10px;
+}
+
+.locations {
+    background-image: url(../img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 70px;
+}
+
+.area {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    opacity: 1;  
+}
+
+.contact {
+    text-align: center;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+}
